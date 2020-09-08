@@ -1,0 +1,4 @@
+AuthName "des-dev.solutions"
+AuthUserfile "/.htpasswd"
+AuthType Basic
+require valid-user

@@ -1,0 +1,6 @@
+# Tre13e-dev.solutions
+# derek@derekerb.solutions
+
+# Disallow indexing
+User-agent: *
+Disallow: /csvout

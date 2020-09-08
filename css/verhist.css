@@ -1,0 +1,46 @@
+/*****************************************************************************************
+	verhist.css
+	Copyright 2020 Derek Erb
+	https://derekerb.solutions
+*****************************************************************************************/
+
+body {
+	--Highlight:	black;
+	--Inner:		purple;
+}
+
+h1 {
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 1%;
+}
+
+table {
+	width: 98%;
+	margin: 1% auto 0 auto;
+	border: 2px solid var(--Highlight);
+	border-collapse: collapse;
+}
+
+th {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: var(--Highlight);
+
+	padding: 1% 0.5%;
+	border-bottom: 2px solid currentColor;
+}
+
+td {
+	font-size: 0.8em;
+	color: var(--Inner);
+	padding: 0.5%;
+	border-bottom: 1px solid currentColor;
+}
+
+td.vernum, td.dt {
+	text-align: right;
+	border-right: 1px solid var(--Inner);
+}

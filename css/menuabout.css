@@ -1,0 +1,11 @@
+/**********************
+menu.css
+Copyright 2020 Derek Erb Solutions
+https://derekerb.solutions
+**********************/
+
+.about p {
+    padding: 0 4%;
+    line-height: 1.5em;
+    text-align: center;
+}

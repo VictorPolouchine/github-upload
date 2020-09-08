@@ -1,0 +1,62 @@
+/**********************
+index.css
+Copyright 2020 Derek Erb Solutions
+https://derekerb.solutions
+**********************/
+
+/**********************
+	BLOCKS
+**********************/
+
+div#dHomePage {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+div#dEng, div#dFra, div#dLogo {
+    width: 99%;
+}
+
+div#dEng, div#dFra {
+    height: 7vh;
+}
+
+div#dEng {
+    padding: 1% 0 0 0;
+}
+
+div#dFra {
+    text-align: right;
+    align-self: flex-start;
+}
+
+div#dLogo {
+}
+
+div a, div a:hover {
+    text-decoration: none;
+    border: none;
+}
+
+button {
+    width: 40%;
+    height: 4em;
+    font-weight: bold;
+}
+
+/**********************
+	LOGO
+**********************/
+
+svg {
+/*    width: 100%; */
+    width: 99%;
+}
+
+.cls-2,.cls-3,.cls-4{
+    font-family: var(--FontLogo);
+    fill: var(--PgFore);
+}
+

@@ -1,0 +1,15 @@
+/**********************
+menukids.css
+Copyright 2020 Derek Erb Solutions
+https://derekerb.solutions
+**********************/
+
+.menusubsecttit {
+    display: none;
+}
+
+.itemAllerg, .itemDesc {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 1.5%;
+}
